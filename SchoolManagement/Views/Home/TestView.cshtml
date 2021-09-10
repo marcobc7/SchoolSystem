@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Welcome to Maboni dynamic site";
+}
+
+<h2 class="text-info"> Hello Maboni Developers!</h2>
+<h2>@ViewBag.Title</h2>
+<p class="text-info">@ViewBag.DisplayText</p>
+
+<form action="/Home/goto" method="POST">
+    <input type="text" name="gotoURL" />
+    <input type="submit" name="Goto" />
+</form>
+
+
